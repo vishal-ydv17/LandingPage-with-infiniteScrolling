@@ -1,6 +1,7 @@
 import Modal from "../Modal/Modal";
 import { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import Logo from "../../assets/images.jpeg";
 
 const Navbar = () => {
     const [showModal, setShowModal] = useState(false);
@@ -48,7 +49,7 @@ const Navbar = () => {
         <nav className="h-16 flex items-center px-4 sticky top-0 z-10 bg-white shadow-md">
             {/* logo */}
             <div className="border-r-[1px] pr-4 h-full flex items-center justify-center">
-                <img src="src\assets\images.jpeg" alt="vite logo" className="size-10" />
+                <img src={Logo} alt="logo" className="size-10" />
             </div>
 
             {/* hamburger */}
