@@ -1,4 +1,4 @@
-# Project Name
+# Timer
 
 This project is a web application built using [Vite](https://vitejs.dev/), [React](https://reactjs.org/), and styled with [Tailwind CSS](https://tailwindcss.com/). It is deployed on [Vercel](https://vercel.com/), providing a fast and seamless development experience.
 
